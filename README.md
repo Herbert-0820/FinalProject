@@ -1,7 +1,6 @@
 # 2022 U.S. Domestic Airport Delay & Cancellation Prediction
 
-![Delayed](https://user-images.githubusercontent.com/88692025/148867919-5f4f81f8-2061-4543-8ba5-c882a058e07e.jpg)
-
+![Delayed (2)](https://user-images.githubusercontent.com/88692025/148868060-eeb992e9-a616-4918-9e6a-f6f33f5bbd5f.jpg)
 
 ## Group 10 Final Project - Segment 1
 
