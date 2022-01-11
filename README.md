@@ -9,7 +9,7 @@
 
 ## Team Members & Roles
 - Varun Rao
-- Nada A
+- Nada Abubaker
 - Herbert Han
 - Saeed Husseini 
 
