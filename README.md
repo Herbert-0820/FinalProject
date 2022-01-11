@@ -33,7 +33,7 @@ Reason for Selected Topic
 - The reason we have chosen this topic is to help analyse and predict airline and airport data in the future. In order to determine potential variables that impact the earliness, delays and cancellations certain airlines or airports go through.
 - The topic is also very relevant as it concerns a lot of travelers in the US, with global tourism being the 8th largest industry in the world at 8.7 billion USD annually. 
 
-## Description of Data Source
+## Description of Data & Source
 
 - Kaggle, a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners.
 - Kaggle which started in 2010 offers the ability to download Open Datasets on 1000s of Projects.
