@@ -46,4 +46,16 @@ Reason for Selected Topic
 
 ## Machine Learning Model
 
+Data Pre-processing/Cleaning
+
+Deciding the definition of a delayed flight, which variables to keep in the model, which variables to discard.
+
+Supervised machine learning model aimed at predicting flight delays at the Origin Airport.
+Using historical delay information from 2016-2018 from US domestic airports and flights.
+
+- Random forest Regression
+- Bagging Regressor
+- Linear Regression
+ 
+
 ## Database
