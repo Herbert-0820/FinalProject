@@ -59,3 +59,8 @@ Using historical delay information from 2016-2018 from US domestic airports and 
  
 
 ## Database
+- The Database table structures accommodates the fields in the file 
+- In addition we add fields for timestamps combining the data and time portions
+- The table has a composite primary key for ensuring uniqueness and efficient data retrieval
+- Based on the type of usage we plan to add additional indexes for efficient data retrieval
+- The database technology used is PostgreSQL and it will be hosted on AWS
