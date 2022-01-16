@@ -8,10 +8,10 @@
 - Access to Presentation -> https://docs.google.com/presentation/d/1fgzr0_UD_RiEuSSxB1nHUACtOhJ9jH2Yjc9kaCJDfmw/edit?usp=sharing
 
 ## Team Members & Roles
-- Varun Rao
-- Nada Abubaker
-- Herbert Han
-- Saeed Husseini 
+- Varun Rao (Circle)
+- Nada Abubaker (Triangle)
+- Herbert Han (Square)
+- Saeed Husseini (X)
 
 ## Project Overview 
 
