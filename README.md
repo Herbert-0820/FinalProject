@@ -1,4 +1,4 @@
-# 2022 U.S. Domestic Airport and Airline Delay & Cancellation Prediction
+# 2022 U.S. Domestic Airport and Airline Delay & Cancellation Predictor
 
 ![Delayed (2)](https://user-images.githubusercontent.com/88692025/148868060-eeb992e9-a616-4918-9e6a-f6f33f5bbd5f.jpg)
 
