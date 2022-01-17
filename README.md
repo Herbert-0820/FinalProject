@@ -1,4 +1,4 @@
-# 2022 U.S. Domestic Airport Delay & Cancellation Prediction
+# 2022 U.S. Domestic Airport and Airline Delay & Cancellation Prediction
 
 ![Delayed (2)](https://user-images.githubusercontent.com/88692025/148868060-eeb992e9-a616-4918-9e6a-f6f33f5bbd5f.jpg)
 
@@ -8,6 +8,7 @@
 - Access to Presentation -> https://docs.google.com/presentation/d/1fgzr0_UD_RiEuSSxB1nHUACtOhJ9jH2Yjc9kaCJDfmw/edit?usp=sharing
 
 ## Team Members & Roles
+
 - Varun Rao (Circle)
 - Nada Abubaker (Triangle)
 - Herbert Han (Square)
@@ -25,18 +26,29 @@ In 2019, there were 5,217 public airports in the U.S.
 Selected Topic
 
 - For our Data Analytics Boot Camp Final project with the University of Toronto, we have decided to take a look at the topic of domestic commercial flights in the US.
-- More specifically the data we will examine includes all US domestic flights and information on the airline, how delayed. how early and whether or not the flight was cancelled, the topic covers daily US domestic flights over the course of a 12 month period in 2018.
+- More specifically the data we will examine includes all US domestic flights and information on the airline, how delayed and whether or not the flight was cancelled, the topic covers daily US domestic flights over the course of a 12-month period in 2018.
 
-Reason for Selected Topic
+Reason for Selected Topic 
 
-- The reason we have chosen this topic is to help analyse and predict airline and airport data in the future. In order to determine potential variables that impact the earliness, delays and cancellations certain airlines or airports go through.
-- The topic is also very relevant as it concerns a lot of travelers in the US, with global tourism being the 8th largest industry in the world at 8.7 billion USD annually. 
+- The reason we have chosen this topic is to help analyze and predict airline and airport data in the future. In order to determine potential variables that impact the delays and cancellations of certain airlines and airports.
+- The topic is also truly relevant as it applies to many travelers in the world, with global tourism being the 8th largest industry in the world at 8.7 billion USD annually. 
+
+Use Case
+
+- Our project use case would like to help travelers gain time in their planning for trips based on the power of prediction of machine learning. Based on the combination of airline and airport, travelers will receive a warning that their flight at this airport with this airline has an X chance of being delayed or cancelled by X amount of delay. Travelers can learn this ahead of time and plan accordingly. Whether its packing traffic or different arrangements at the destination, the use for this information is countless.
+
+Primary Questions Data will answer
+
+1. Is there a relationship between airline and delays/cancellations?
+2. Are there specific airports that are more likely to be delayed/cancelled?
+3. Based on the data, can our Supervised Machine Learning Model predict which airlines and airports suffer the most delays/cancellations?
+
 
 ## Description of Data & Source
 
 - Kaggle, a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners.
 - Kaggle which started in 2010 offers the ability to download Open Datasets on 1000s of Projects.
-- Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
+- Kaggle allows users to find and publish data sets, explore, and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
 - Airline Delay and Cancellation Data, 2009 - 2018
 - Flight info. of US domestic flights
 - This dataset aims to incorporate multi-year data from 2009 to 2018 to offer additional time series insights.
@@ -56,11 +68,13 @@ Using historical delay information from 2016-2018 from US domestic airports and 
 - Random forest Regression
 - Bagging Regressor
 - Linear Regression
- 
 
 ## Database
+
+![Database](https://user-images.githubusercontent.com/88692025/149708413-5a7d9a7a-5cc1-4731-9e5f-f383848ded1c.PNG)
+
 - The Database table structures accommodates the fields in the file 
-- In addition we add fields for timestamps combining the data and time portions
+- In addition, we add fields for timestamps combining the data and time portions
 - The table has a composite primary key for ensuring uniqueness and efficient data retrieval
 - Based on the type of usage we plan to add additional indexes for efficient data retrieval
 - The database technology used is PostgreSQL and it will be hosted on AWS
