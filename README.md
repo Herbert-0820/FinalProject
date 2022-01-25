@@ -7,8 +7,6 @@
 #### 5.	TAXI_IN
 #### 6.	CANCELLATION_CODE
 
-#### Comb
-
 
 #### IMPORT:
 #### ORGIN
