@@ -116,7 +116,6 @@ Note: The descriptions and explanations required in all other project deliverabl
 Individual Branches
 
 ✓ At least one branch for each team member
-
 ✓ Each team member has at least four commits for the duration of the second segment (eight total commits per person)
 
 ## Database
