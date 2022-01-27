@@ -107,17 +107,12 @@ Description of the communication protocols
 - Tableau: visualize the data dimensions and analysis result, and connect with html to create a web for the output
 - Zoom/Slack: Team meeting
 
-✓ Outline of the project (this may include
-images, but should be easy to follow and digest)
-Note: The descriptions and explanations required
-in all other project deliverables should also be in
-your README.md as part of your outline, unless
-otherwise noted.
+✓ Outline of the project (this may include images, but should be easy to follow and digest)
+Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
+
 Individual Branches
 ✓ At least one branch for each team member
-✓ Each team member has at least four commits
-for the duration of the second segment (eight
-total commits per person)
+✓ Each team member has at least four commits for the duration of the second segment (eight total commits per person)
 
 ## Database
 
