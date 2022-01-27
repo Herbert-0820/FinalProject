@@ -30,14 +30,3 @@ Outline of the project (this may include images, but should be easy to follow an
 Individual Branches
 ✓ At least one branch for each team member
 ✓ Each team member has at least four commits for the duration of the second segment (eight total commits per person)
-
-
-- Kaggle, a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners.
-- Kaggle which started in 2010 offers the ability to download Open Datasets on 1000s of Projects.
-- Kaggle allows users to find and publish data sets, explore, and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
-- Airline Delay and Cancellation Data, 2009 - 2018
-- Flight info. of US domestic flights
-- This dataset aims to incorporate multi-year data from 2009 to 2018 to offer additional time series insights.
-- Airline Delay and Cancellation Data CSV file for the year of 2018
-- All data files are downloaded from OST website, which stores flights on-time performance from 1987 to present.
-- The OST contains information from the US Bureau of Transportation Statistics.
