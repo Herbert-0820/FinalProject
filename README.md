@@ -111,7 +111,24 @@ Description of the communication protocols
 Outline of the project (this may include images, but should be easy to follow and digest)
 Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
 
-
+Topic selection
+- Zoom/Slack: Team meeting
+GitHub and communication tools setup
+- Zoom/Slack: Team meeting
+Data collection
+- Zoom/Slack: Team meeting
+Data selection
+- Zoom/Slack: Team meeting
+Data cleaning
+- Zoom/Slack: Team meeting
+Data Transformation
+- Zoom/Slack: Team meeting
+Process model analysis
+- Zoom/Slack: Team meeting
+Presentation
+- Zoom/Slack: Team meeting
+Readme report
+- Zoom/Slack: Team meeting
 
 Individual Branches
 
