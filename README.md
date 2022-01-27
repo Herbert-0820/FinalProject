@@ -1,4 +1,4 @@
-# 2022 U.S. Domestic Flight Delay Predictor
+# 2022 U.S. Domestic Flight Delay/Earliness Predictor
 ## Group 10 Final Project - Saeed's Branch
 
 To-Do-List for Sunday
