@@ -27,6 +27,15 @@ Description of the communication protocols
 
 Outline of the project (this may include images, but should be easy to follow and digest) Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
 
+Topic selection
+GitHub and communication tools setup
+Data collection
+Data selection
+Data cleaning
+Data Transformation
+Process model analysis
+Presentation
+Readme report
 
 
 Individual Branches
