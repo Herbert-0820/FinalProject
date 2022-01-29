@@ -235,7 +235,7 @@ limitations and benefits.
  The different model was used on this project, but logistic regression model was highest accuracy model. the logistic regression model will then classify this sample as belonging to class 0 (on time or early) or class 1 (delay). 
  
   
- ![This is an image](  )
+ ![This is an image]( https://github.com/Herbert-0820/FinalProject/tree/main/image )
 
 ### Benefits 
 - Logistic regression is easier to implement, interpret, and very efficient to train.
