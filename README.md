@@ -240,7 +240,7 @@ limitations and benefits.
  
  The Accuracy of  logistic regression is 88% as show below .
  
- ![This is an image]( https://github.com/Herbert-0820/FinalProject/tree/main/image )
+ ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/accuracy_score.png )
 
 ### Benefits 
 - Logistic regression is easier to implement, interpret, and very efficient to train.
