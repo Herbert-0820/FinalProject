@@ -32,4 +32,40 @@ CREATE TABLE project.machine_learning_flight_data (
     DAY varchar(100) NULL,
     MONTH_ABBR varchar(100) NULL,
     DELAY_STATUS boolean NULL
-);
+)PARTITION BY RANGE (FLIGHT_DT);
+
+CREATE TABLE ml_flight_data_201801 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-01-01') TO ('2018-02-01');
+
+CREATE TABLE ml_flight_data_201802 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-02-01') TO ('2018-03-01');
+
+CREATE TABLE ml_flight_data_201803 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-03-01') TO ('2018-04-01');
+
+CREATE TABLE ml_flight_data_201804 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-04-01') TO ('2018-05-01');
+
+CREATE TABLE ml_flight_data_201805 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-05-01') TO ('2018-06-01');
+
+CREATE TABLE ml_flight_data_201806 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-06-01') TO ('2018-07-01');
+
+CREATE TABLE ml_flight_data_201807 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-07-01') TO ('2018-08-01');
+
+CREATE TABLE ml_flight_data_201808 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-08-01') TO ('2018-09-01');
+
+CREATE TABLE ml_flight_data_201809 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-09-01') TO ('2018-10-01');
+
+CREATE TABLE ml_flight_data_201810 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-10-01') TO ('2018-11-01');
+
+CREATE TABLE ml_flight_data_201811 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-11-01') TO ('2018-12-01');
+
+CREATE TABLE ml_flight_data_201812 PARTITION OF project.machine_learning_flight_data
+    FOR VALUES FROM ('2018-12-01') TO ('2019-01-01');
