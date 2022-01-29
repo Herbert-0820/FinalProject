@@ -154,7 +154,7 @@ Team members submit the code for their
 machine learning model, as well as the following:
 
  
- ![This is an image](  )
+ ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/nada/image/pie_airline.png )
 
 
 ✓ Description of preliminary data preprocessing
@@ -226,7 +226,7 @@ merged_df.head(2)
 Then dropping it alongside the DEP_DELAY from the data frame to define X (features). With this done, I split the data with a 25 and 75% for the test and training set respectively
 
  
- ![This is an image]( )
+ ![This is an image](https://github.com/Herbert-0820/FinalProject/blob/nada/image/test_train.png )
 
 ✓ Explanation of model choice, including
 limitations and benefits.
