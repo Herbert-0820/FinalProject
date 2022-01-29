@@ -44,15 +44,51 @@ the project
 ✓ Description of the analysis phase of the
 project
  
-Link to Google Slides Above in Segment 1
-
 
 ## Dashboard
 
-A blueprint for the dashboard is created and
-includes all of the following:
-✓ Storyboard on Google Slide(s)
-✓ Description of the tool
+Link to Google Slides [GitHub Pages](https://docs.google.com/presentation/d/1fgzr0_UD_RiEuSSxB1nHUACtOhJ9jH2Yjc9kaCJDfmw/edit#slide=id.p) 
+
+### Description of the tools:
+- JavaScreipt and HTML5
+- Microsft Visual Studio Code
 - Tableau Desktop Version 2021.4
-- Tableau Software is an American interactive data visualization software company focused on business intelligence 
-✓ Description of interactive element(s)
+- Tableau Software is an interactive data visualization software tool.
+
+### Description of the interactive elements:
+- The inidvidual graphs and data visualizations will be created on Tableau
+- Once the individual graphs are created, a Tableau Dashboard with the most relevant graphs can be made.
+- Our team has decided that we will use the graphs taken from the data visualization in Tableau and create a Javascript/HTML5 dashboard in the form of a web link
+- On this dashboard we will create links to the individual Tableau graphs.
+- An example of interactive element we can use in the dashbaord via Tableau, is searching for a flight number to get flight delay, searching for an airline or airports to get probability of flight delay.
+- Searching for an airport opr airline in general to chec k for total flights.
+
+### Graphs and Analysis:
+
+- The following graphs are an example of the type of Airline and Airport data we are analyzing:
+
+Does how far the flight needs to go impact arrival delay at destinations?
+![Arrival Delay vs Distance](https://user-images.githubusercontent.com/88692025/151680624-c3c9dc9d-fbdf-465e-a7e3-ada1632a9d05.PNG)
+
+Does how far the flight needs to go impact departure delay in airports?
+![Departure Delay vs Distance](https://user-images.githubusercontent.com/88692025/151680626-929b4377-3104-4dea-a5ab-6e0bfa1d362e.PNG)
+
+Top 20 U.S. Domestic Flight Destinations with Average Arrival Delay (100,000+ flights or more per year)
+![Delayed Arrival Destinations](https://user-images.githubusercontent.com/88692025/151680827-7bbea337-13bc-4279-ae9a-5cf2eb7cfb3b.PNG)
+
+Top 20 U.S. Domestic Flight Cities with Average Departure Delay (100,000+ flights or more per year)
+![Delayed Cities](https://user-images.githubusercontent.com/88692025/151680831-1f47998b-b0dc-4e55-817c-4df3fb168ebf.PNG)
+
+Other Graphs Include:
+1. Top Arrival Delays - All Airlines (Average)
+2. Pie Chart (Percentage for Airline)
+3. Top Departure Delays - All Airlines (Median, Sum, Average)
+4. Top 10 Origin Airport - Departure Delay (Average)
+5. Top 10 Airport - Arrival Delay (Average)
+6. Top 10 Airport Destination - Arrival Delay
+7. Top Reasons for Departure Delay - Top 10 Origin Airports
+8. Seasonal Delays per Airport - Monthly
+9. Seasonal Delays per Airline - Monthly
+10. Filter data for Airline and Airport - Arrival Delays, Departure Delays, Number of flights, Number of Destinations
+11. Origin and Destination Delay Size Map
+12. Weather impact on delays
