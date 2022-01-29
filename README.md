@@ -198,7 +198,7 @@ decision-making process.
  
 ✓ Description of how data was split into training
 and testing sets.
-'''
+```
 status = []
 
 for value in merged_df['ARR_DELAY']:
@@ -209,8 +209,7 @@ for value in merged_df['ARR_DELAY']:
 merged_df['DELAY_STATUS'] = status
 merged_df.head(2)    
 
-
-'''
+```
 
 ✓ Explanation of model choice, including
 limitations and benefits.
