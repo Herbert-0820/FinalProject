@@ -137,17 +137,20 @@ database.
 
 -	Running a PostgreSQL database in AWS
 
+
 ✓ Database stores static data for use during the project
 
 ✓ Database interfaces with the project in someformat (e.g., scraping updates the database, or database connects to the model)
 
 -	Data stored in tables and stores the formatted raw data and the Machine learning model Data
 
+
 ✓ Includes at least two tables (or collections, if using MongoDB)
 
 ✓ Includes at least one join using the database language (not including any joins in Pandas)
 
 -	Join on another airplane dataset to provide airport names and latitude and longitude
+
 
 ✓ Includes at least one connection string (using SQLAlchemy or PyMongo)
 
