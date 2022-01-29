@@ -64,12 +64,15 @@ Data Pre-processing/Cleaning
 
 Deciding the definition of a delayed flight, which variables to keep in the model, which variables to discard.
 
-Supervised machine learning model aimed at predicting flight delays at the Origin Airport.
+Supervised machine learning model aimed at predicting flight delays.
 Using historical delay information from 2016-2018 from US domestic airports and flights.
 
-- Random forest Regression
-- Bagging Regressor
-- Linear Regression
+
+- Logistic Regression
+- Balanced Random Forest Classifier
+- Random Forest Classifier
+- Decision Tree Classifier
+- Bagging Classifier
 
 ## Database
 
@@ -149,14 +152,66 @@ provide your ERD with relationships.
 
 Team members submit the code for their
 machine learning model, as well as the following:
+
 ✓ Description of preliminary data preprocessing
+- Each one of these files contain an average of 28 categories with millions of rows.For the reson , this project will analysis 2018 dataset that consist 7.2  million rows. 
+
 ✓ Description of preliminary feature engineering
 and preliminary feature selection, including their
-decision-making process
+decision-making process.
+ 
+ Since the predictions of  flight delays is defore announce on the departure boards.
+ some of the preliminary feature are list below 
+ - OP_CARRIER  ( 18 Airline)
+ - ORIGIN = Starting Airport Code
+ - DEST = Destination Airport Code
+ - CRS_DEP_TIME = Planned Departure Time
+ - DEP_TIME = Actual Departure Time
+ - DEP_DELAY = Total Delay on Departure in minutes
+ - TAXI_OUT = The time duration elapsed between departure from the origin airport gate and wheels off
+ - WHEELS_OFF = The time point that the aircraft's wheels leave the ground
+ - WHEELS_ON = The time point that the aircraft'ss wheels touch on the ground
+ - TAXI_IN = The time duration elapsed between wheels-on and gate arrival at the destination airport
+ - CRS_ARR_TIME = Planned arrival time
+ - ARR_TIME = Actual Arrival Time = ARRIVAL_TIME - SCHEDULED_ARRIVAL
+ - ARR_DELAY = Total Delay on Arrival in minutes
+ - Month -  From Date 
+ - Weekday - From Date 
+ - CRS_ELAPSED_TIME = Planned time amount needed for the flight trip
+ - ACTUAL_ELAPSED_TIME = AIR_TIME+TAXI_IN+TAXI_OUT
+ - AIR_TIME = The time duration between wheels_off and wheels_on time
+ - DISTANCE = Distance between two airports
+ - CARRIER_DELAY = Delay caused by the airline in minutes
+ - WEATHER_DELAY = Delay caused by weather
+ - NAS_DELAY = Delay caused by air system
+ - SECURITY_DELAY = caused by security reasons
+ - LATE_AIRCRAFT_DELAY = Delay caused by security
+ 
+ and dropped feature are list below 
+ 
+  - CANCELLED = Flight Cancelled (1 = cancelled)
+  - CANCELLATION_CODE = Reason for Cancellation of flight: A - Airline/Carrier; B - Weather; C - National Air System; D - Security
+  - DIVERTED = Aircraft landed on different airport that the one scheduled
+  - Un named: 27 ( empyt column )
+  - FL_DATE = Date of the Flight
+  - OP_CARRIER_FL_NUM = Flight Number
+ 
 ✓ Description of how data was split into training
-and testing sets
+and testing sets.
+../
+status = []
+
+for value in merged_df['ARR_DELAY']:
+    if value < 0:
+        status.append(0)
+    else:
+        status.append(1)
+merged_df['DELAY_STATUS'] = status
+merged_df.head(2)    
+../
+
 ✓ Explanation of model choice, including
-limitations and benefits
+limitations and benefits.
 
 ## Dashboard
 
