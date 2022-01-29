@@ -238,7 +238,7 @@ limitations and benefits.
 
 - The major limitation of Logistic Regression is the assumption of linearity between the dependent variable and the independent variable
 - If the number of observations is lesser than the number of features, Logistic Regression should not be used, otherwise, it may lead to overfitting.
-- 
+
 ## Dashboard
 
 A blueprint for the dashboard is created and
