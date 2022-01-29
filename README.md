@@ -153,13 +153,15 @@ provide your ERD with relationships.
 Team members submit the code for their
 machine learning model, as well as the following:
 
- 
- ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/nada/image/pie_airline.png )
-
-
 ✓ Description of preliminary data preprocessing
 
 - Each one of these files contain an average of 28 categories with millions of rows.For the reson , this project will analysis 2018 dataset that consist 7.2  million rows. 
+
+ As show below pie  graph of Airlines on this dataset
+ 
+![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/nada/image/pie_airline.png )
+
+
 
 ✓ Description of preliminary feature engineering
 and preliminary feature selection, including their
@@ -210,6 +212,9 @@ and testing sets.
 ARR_DELAY = Total Delay on Arrival in minutes.
 As show below, 'DELAY_STATUS  column is add to dataset which is binary data that classify this sample as belonging to class 0 (on time or early ) or class 1 (delay ).
 
+ As chart below , Flight Delay Vs Filght On-Time
+ 
+![This is an image](https://github.com/Herbert-0820/FinalProject/blob/nada/image/ontime_delay.png)
 ```
 status = []
 
@@ -222,8 +227,7 @@ merged_df['DELAY_STATUS'] = status
 merged_df.head(2)    
 
 ```
-
-Then dropping it alongside the DEP_DELAY from the data frame to define X (features). With this done, I split the data with a 25 and 75% for the test and training set respectively
+  X (features) is where dropping DEP_DELAY ,ARR_DELAY and DELAY_STATUS  from the data frame and Y(features) is DEP_DELAY as below .then split the data with a 25 and 75% for the test and training set respectively
 
  
  ![This is an image](https://github.com/Herbert-0820/FinalProject/blob/nada/image/test_train.png )
@@ -234,7 +238,8 @@ limitations and benefits.
 
  The different model was used on this project, but logistic regression model was highest accuracy model. the logistic regression model will then classify this sample as belonging to class 0 (on time or early) or class 1 (delay). 
  
-  
+ The Accuracy of  logistic regression is 88% as show below .
+ 
  ![This is an image]( https://github.com/Herbert-0820/FinalProject/tree/main/image )
 
 ### Benefits 
