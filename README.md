@@ -279,21 +279,27 @@ Link to Google Slides [GitHub Pages](https://docs.google.com/presentation/d/1fgz
 - The following graphs are examples the type of Airline and Airport data we are analyzing:
 
 Top 20 Airports by Flights 
+
 ![Top 20 Airports by flights](https://user-images.githubusercontent.com/88692025/151681344-bac572f1-62d4-4bf6-9fc6-062a7df7e3cb.PNG)
 
 Top Airlines by Flights
+
 ![Top Airlines by flights](https://user-images.githubusercontent.com/88692025/151681361-1292f5e4-59f3-4054-bd77-8606565089aa.PNG)
 
 Does how far the flight need to go impact arrival delay at destinations?
+
 ![Arrival Delay vs Distance](https://user-images.githubusercontent.com/88692025/151680624-c3c9dc9d-fbdf-465e-a7e3-ada1632a9d05.PNG)
 
 Does how far the flight need to go impact departure delay in airports?
+
 ![Departure Delay vs Distance](https://user-images.githubusercontent.com/88692025/151680626-929b4377-3104-4dea-a5ab-6e0bfa1d362e.PNG)
 
 Top 20 U.S. Domestic Flight Destinations with Average Arrival Delay (100,000+ flights or more per year)
+
 ![Delayed Arrival Destinations](https://user-images.githubusercontent.com/88692025/151680827-7bbea337-13bc-4279-ae9a-5cf2eb7cfb3b.PNG)
 
 Top 20 U.S. Domestic Flight Cities with Average Departure Delay (100,000+ flights or more per year)
+
 ![Delayed Cities](https://user-images.githubusercontent.com/88692025/151680831-1f47998b-b0dc-4e55-817c-4df3fb168ebf.PNG)
 
 Other Graphs Include:
