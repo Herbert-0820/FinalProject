@@ -1,4 +1,7 @@
 DROP TABLE project.joined_flight_data;
+DROP SCHEMA project;
+
+CREATE SCHEMA project AUTHORIZATION airlinedb;
 
 CREATE TABLE project.joined_flight_data (
 	AIRLINE_CARRIER_CODE varchar(2) NOT NULL,
@@ -6,7 +9,7 @@ CREATE TABLE project.joined_flight_data (
 	ORIGIN_AIRPORT_CODE varchar(3) NOT NULL,
 	CRS_DEPARTURE_TIMESTAMP timestamp NOT NULL,
 	CANCELLED_IND boolean NOT NULL,
-	FLIGHT_DT DATE NULL,
+	FLIGHT_DT DATE NOT NULL,
 	DEST_AIRPORT_CODE varchar(3) NULL,
 	ACTUAL_DEPARTURE_TIMESTAMP timestamp NULL,
 	DEPARTURE_DELAY_MINUTES integer NULL,
@@ -34,6 +37,45 @@ CREATE TABLE project.joined_flight_data (
 	DEST_AIRPORT_NAME varchar(255) NULL,
 	DEST_LATITUDE_DEG decimal NULL,
 	DEST_LONGITUDE_DEG decimal NULL
-	
-);
+)PARTITION BY RANGE (FLIGHT_DT);
+
+CREATE TABLE joined_flight_data_201801 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-01-01') TO ('2018-02-01');
+
+CREATE TABLE joined_flight_data_201802 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-02-01') TO ('2018-03-01');
+
+CREATE TABLE joined_flight_data_201803 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-03-01') TO ('2018-04-01');
+
+CREATE TABLE joined_flight_data_201804 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-04-01') TO ('2018-05-01');
+
+CREATE TABLE joined_flight_data_201805 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-05-01') TO ('2018-06-01');
+
+CREATE TABLE joined_flight_data_201806 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-06-01') TO ('2018-07-01');
+
+CREATE TABLE joined_flight_data_201807 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-07-01') TO ('2018-08-01');
+
+CREATE TABLE joined_flight_data_201808 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-08-01') TO ('2018-09-01');
+
+CREATE TABLE joined_flight_data_201809 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-09-01') TO ('2018-10-01');
+
+CREATE TABLE joined_flight_data_201810 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-10-01') TO ('2018-11-01');
+
+CREATE TABLE joined_flight_data_201811 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-11-01') TO ('2018-12-01');
+
+CREATE TABLE joined_flight_data_201812 PARTITION OF project.joined_flight_data
+    FOR VALUES FROM ('2018-12-01') TO ('2019-01-01');
+
+
+
+
 
