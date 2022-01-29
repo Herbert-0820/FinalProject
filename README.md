@@ -160,7 +160,8 @@ machine learning model, as well as the following:
 and preliminary feature selection, including their
 decision-making process.
  
- Since the predictions of  flight delays is defore announce on the departure boards.
+ The Delay fligth can be reason of many features weather , distance , airline and airport. So , we use most of features to get more accuray perdicate .
+ Since the predictions of  flight delays is before announce on the departure boards.
  some of the preliminary feature are list below 
  - OP_CARRIER  ( 18 Airline)
  - ORIGIN = Starting Airport Code
@@ -198,6 +199,10 @@ decision-making process.
  
 ✓ Description of how data was split into training
 and testing sets.
+The model which used in this project is Classifier which is used to predict discrete outcomes. In this case , flight is delay or not .
+ARR_DELAY = Total Delay on Arrival in minutes.
+As show below, 'DELAY_STATUS  column is add to dataset which is binary data that classify this sample as belonging to class 0 (on time or early ) or class 1 (delay ).
+
 ```
 status = []
 
@@ -213,6 +218,12 @@ merged_df.head(2)
 
 ✓ Explanation of model choice, including
 limitations and benefits.
+
+
+The different model was used on this project, but logistic regression model was highest accuracy model. the logistic regression model will then classify this sample as belonging to class 0 (on time or early) or class 1 (delay).
+
+then dropping it alongside the DEP_DELAY from the data frame to define X (features). With this done, I split the data with a 25 and 75% for the test and training set respectively
+
 
 ## Dashboard
 
