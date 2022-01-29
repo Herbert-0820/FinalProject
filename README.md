@@ -153,6 +153,10 @@ provide your ERD with relationships.
 Team members submit the code for their
 machine learning model, as well as the following:
 
+ 
+ ![This is an image](  )
+
+
 ✓ Description of preliminary data preprocessing
 
 - Each one of these files contain an average of 28 categories with millions of rows.For the reson , this project will analysis 2018 dataset that consist 7.2  million rows. 
@@ -221,13 +225,17 @@ merged_df.head(2)
 
 Then dropping it alongside the DEP_DELAY from the data frame to define X (features). With this done, I split the data with a 25 and 75% for the test and training set respectively
 
-
+ 
+ ![This is an image]( )
 
 ✓ Explanation of model choice, including
 limitations and benefits.
 
 
  The different model was used on this project, but logistic regression model was highest accuracy model. the logistic regression model will then classify this sample as belonging to class 0 (on time or early) or class 1 (delay). 
+ 
+  
+ ![This is an image](  )
 
 ### Benefits 
 - Logistic regression is easier to implement, interpret, and very efficient to train.
