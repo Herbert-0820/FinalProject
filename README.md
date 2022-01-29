@@ -17,68 +17,42 @@ Content
 The presentation outlines the project, including
 the following:
 ✓ Selected topic
-✓ Reason why they selected their topic
+- Outlined in more detail in segment 1 above. 
+- Our selected topic is to analyze and overview 2018 U.S. Domestic Flight data, specifically airports and airlines that suffer from delay.
+- Use 2018 histroical data and machine learning to predict 2022 flights for specific airlines/airports and whether or not they are delayed and by how many minutes.
+- No longer focusing on flight cancellations or earliness, focusing primalrly on arrival delay at destination and departure delay at origin.
+
+✓ Reason for the selected topic 
+- Using histroical data to predict future trends for travelers, this can help travelers, airlines and airports gain better insight on the flights that might be delayed given our machine learning features.
+- Trevelers can get an idea if the flight they are on will be delayed or not, and if it will arive late at the destination airport, which can allow them to plan their travel more acccurately.
+
 ✓ Description of their source of data
+- Outlined in Detail in Segment 1 above
+- Airline Delay and Cancellation Data, 2009 - 2018 from Kaggle.com
+- Flight info. of US domestic flights for the all flights in 2018
+
 ✓ Questions they hope to answer with the data
+- How impactful is weather on certain airlines?
+- How impactful is weather on certain airports?
+- How impactful is airline delay vs airport delay?
+- Can we predict if a flight is delayed or not?
+- Can we predict how much a flight will be dealyed?
+- Is there a link between distance of the flight and the delay?
+
 ✓ Description of the data exploration phase of
 the project
 ✓ Description of the analysis phase of the
 project
-Slides
-Presentations are drafted in Google Slides.
+ 
+Link to Google Slides Above in Segment 1
 
-## Team Overview
-
-README.md must include:
-✓ Description of the communication protocols
-✓ Outline of the project (this may include
-images, but should be easy to follow and digest)
-Note: The descriptions and explanations required
-in all other project deliverables should also be in
-your README.md as part of your outline, unless
-otherwise noted.
-Individual Branches
-✓ At least one branch for each team member
-✓ Each team member has at least four commits
-for the duration of the second segment (eight
-total commits per person)
-
-## Database
-
-Team members present a fully integrated
-database.
-✓ Database stores static data for use during the
-project
-✓ Database interfaces with the project in some
-format (e.g., scraping updates the database, or
-database connects to the model)
-✓ Includes at least two tables (or collections, if
-using MongoDB)
-✓ Includes at least one join using the database
-language (not including any joins in Pandas)
-✓ Includes at least one connection string (using
-SQLAlchemy or PyMongo)
-Note: If you use a SQL database, you must
-provide your ERD with relationships.
-
-## Machine Learning Model
-
-Team members submit the code for their
-machine learning model, as well as the following:
-✓ Description of preliminary data preprocessing
-✓ Description of preliminary feature engineering
-and preliminary feature selection, including their
-decision-making process
-✓ Description of how data was split into training
-and testing sets
-✓ Explanation of model choice, including
-limitations and benefits
 
 ## Dashboard
 
 A blueprint for the dashboard is created and
 includes all of the following:
 ✓ Storyboard on Google Slide(s)
-✓ Description of the tool(s) that will be used to
-create final dashboard
+✓ Description of the tool
+- Tableau Desktop Version 2021.4
+- Tableau Software is an American interactive data visualization software company focused on business intelligence 
 ✓ Description of interactive element(s)
