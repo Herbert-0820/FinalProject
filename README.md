@@ -135,7 +135,7 @@ Individual Branches
 Team members present a fully integrated
 database.
 
--	Running a PostgreSQL database in AWS
+-	Switched to GCP PostgreSQL database for a much faster database than AWS
 
 
 ✓ Database stores static data for use during the project
