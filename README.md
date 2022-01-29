@@ -1,50 +1,48 @@
-
-
-# 2022 U.S. Domestic Airport and Airline Delay & Cancellation Predictor
+# 2022 U.S. Domestic Airport and Airline Delay Predictor
 
 ![Delayed (2)](https://user-images.githubusercontent.com/88692025/148868060-eeb992e9-a616-4918-9e6a-f6f33f5bbd5f.jpg)
 
 ## Group 10 Final Project - Segment 1
 
 ## Google Slides Presentation Link
+
 - Access to Presentation -> https://docs.google.com/presentation/d/1fgzr0_UD_RiEuSSxB1nHUACtOhJ9jH2Yjc9kaCJDfmw/edit?usp=sharing
 
 ## Team Members & Roles
 
-- Varun Rao (Circle)
-- Nada Abubaker (Triangle)
-- Herbert Han (Square)
-- Saeed Husseini (X)
+- Varun Rao (Circle Role)
+- Nada Abubaker (Triangle Role)
+- Herbert Han (Square Role)
+- Saeed Husseini (X Role)
 
 ## Project Overview 
 
-The Airline Industry
+### The Airline Industry
 
 - According to the Bureau of Transportation Statistics, in the year 2019 there were over 810 million passengers aboard U.S. scheduled airline flights. And that staggering figure is only accounting Domestic flights.
 - In the same year of 2019, the US Domestic flight industry racked in almost 160 billion USD in revenue from these passenger flights. 
 - A quick look at the number of commercial air carriers in the US, with 22 current major carriers in 2021. And smaller air carriers with the 43 counted in 2021.
 In 2019, there were 5,217 public airports in the U.S.
 
-Selected Topic
+### Selected Topic
 
 - For our Data Analytics Boot Camp Final project with the University of Toronto, we have decided to take a look at the topic of domestic commercial flights in the US.
 - More specifically the data we will examine includes all US domestic flights and information on the airline, how delayed and whether or not the flight was cancelled, the topic covers daily US domestic flights over the course of a 12-month period in 2018.
 
-Reason for Selected Topic 
+### Reason for Selected Topic 
 
 - The reason we have chosen this topic is to help analyze and predict airline and airport data in the future. In order to determine potential variables that impact the delays and cancellations of certain airlines and airports.
 - The topic is also truly relevant as it applies to many travelers in the world, with global tourism being the 8th largest industry in the world at 8.7 billion USD annually. 
 
-Use Case
+### Use Case
 
 - Our project use case would like to help travelers gain time in their planning for trips based on the power of prediction of machine learning. Based on the combination of airline and airport, travelers will receive a warning that their flight at this airport with this airline has an X chance of being delayed or cancelled by X amount of delay. Travelers can learn this ahead of time and plan accordingly. Whether its packing traffic or different arrangements at the destination, the use for this information is countless.
 
-Primary Questions Data will answer
+### Primary Questions Data will answer
 
 1. Is there a relationship between airline and delays/cancellations?
 2. Are there specific airports that are more likely to be delayed/cancelled?
 3. Based on the data, can our Supervised Machine Learning Model predict which airlines and airports suffer the most delays/cancellations?
-
 
 ## Description of Data & Source
 
@@ -60,14 +58,14 @@ Primary Questions Data will answer
 
 ## Machine Learning Model
 
-Data Pre-processing/Cleaning
+### Data Pre-processing/Cleaning
 
-Deciding the definition of a delayed flight, which variables to keep in the model, which variables to discard.
+- Deciding the definition of a delayed flight, which variables to keep in the model, which variables to discard.
 
-Supervised machine learning model aimed at predicting flight delays.
-Using historical delay information from 2016-2018 from US domestic airports and flights.
+- Supervised machine learning model aimed at predicting flight delays.
+- Using historical delay information from 2016-2018 from US domestic airports and flights.
 
-
+Potential ML models to use:
 - Logistic Regression
 - Balanced Random Forest Classifier
 - Random Forest Classifier
@@ -104,7 +102,7 @@ Presentations are drafted in Google Slides.
 
 ## Team Overview
 
-Description of the communication protocols
+### Description of the communication protocols
 
 - GitHub: keep the revision of the project straight and store the modifications in a central repository, so the team members can see these new changes, download them, and contribute.
 - AWS: create AWS server to store massive raw data at the database
@@ -113,8 +111,7 @@ Description of the communication protocols
 - Tableau: visualize the data dimensions and analysis result, and connect with html to create a web for the output
 - Zoom/Slack: Team meeting
 
-Outline of the project (this may include images, but should be easy to follow and digest)
-Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
+### Outline of the project 
 
 - Topic selection
 - Data collection
@@ -122,10 +119,12 @@ Note: The descriptions and explanations required in all other project deliverabl
 - Data cleaning
 - Data Transformation
 - Process model analysis
+- Data Visualization 
+- Dashboard Creation
 - Presentation
 - Readme report
 
-Individual Branches
+### Individual Branches
 
 - At least one branch for each team member
 - Each team member has at least four commits for the duration of the second segment (eight total commits per person)
@@ -156,31 +155,25 @@ database.
 
 -	Using the JDBC connector to write to the database
 
-
-
 ## Machine Learning Model
 
 Team members submit the code for their
 machine learning model, as well as the following:
 
-✓ Description of preliminary data preprocessing
+### Description of preliminary data preprocessing
 
-- Each one of these files contain an average of 28 categories with millions of rows.For the reson , this project will analysis 2018 dataset that consist 7.2  million rows. 
+- Each one of these files contain an average of 28 categories with millions of rows. For this reason, this project will analyze 2018 dataset that consists of 7.2  million rows. 
 
- As show below pie  graph of Airlines on this dataset
+ As shown below in the following pie chart of Airlines in this dataset
  
 ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/nada/image/pie_airline.png )
 
 
-
-✓ Description of preliminary feature engineering
-and preliminary feature selection, including their
-decision-making process.
-
+### Description of preliminary feature engineering and preliminary feature selection, including decision-making process.
  
  The Delay fligth can be reason of many features weather , distance , airline and airport. So , we use most of features to get more accuray perdicate .
  Since the predictions of  flight delays is before announce on the departure boards.
- some of the preliminary feature are list below 
+ some of the preliminary feature are list below:
  - OP_CARRIER  ( 18 Airline)
  - ORIGIN = Starting Airport Code
  - DEST = Destination Airport Code
@@ -215,14 +208,13 @@ decision-making process.
   - FL_DATE = Date of the Flight
   - OP_CARRIER_FL_NUM = Flight Number
  
-✓ Description of how data was split into training
-and testing sets.
+### Description of how data was split into training and testing sets.
 
 - The model which used in this project is Classifier which is used to predict discrete outcomes. In this case , flight is delay or not .
 ARR_DELAY = Total Delay on Arrival in minutes.
 As show below, 'DELAY_STATUS  column is add to dataset which is binary data that classify this sample as belonging to class 0 (on time or early ) or class 1 (delay ).
 
- As chart below , Flight Delay Vs Filght On-Time
+ As chart below, Flights Delays Vs Filghts On-Time
  
 ![This is an image](https://github.com/Herbert-0820/FinalProject/blob/nada/image/ontime_delay.png)
 ```
@@ -242,13 +234,11 @@ merged_df.head(2)
  
  ![This is an image](https://github.com/Herbert-0820/FinalProject/blob/nada/image/test_train.png )
 
-✓ Explanation of model choice, including
-limitations and benefits.
+### Explanation of model choice, including limitations and benefits.
 
-
- The different model was used on this project, but logistic regression model was highest accuracy model. the logistic regression model will then classify this sample as belonging to class 0 (on time or early) or class 1 (delay). 
+- The different model was used on this project, but logistic regression model was highest accuracy model. the logistic regression model will then classify this sample as belonging to class 0 (on time or early) or class 1 (delay). 
  
- The Accuracy of  logistic regression is 88% as show below .
+The Accuracy of  logistic regression is 88% as show below .
  
  ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/accuracy_score.png )
 
@@ -264,10 +254,58 @@ limitations and benefits.
 
 ## Dashboard
 
-A blueprint for the dashboard is created and
-includes all of the following:
-✓ Storyboard on Google Slide(s)
-✓ Description of the tool(s) that will be used to
-create final dashboard
-✓ Description of interactive element(s)
+### Storyboard (Also Available on Google Slides)
 
+Link to Google Slides [GitHub Pages](https://docs.google.com/presentation/d/1fgzr0_UD_RiEuSSxB1nHUACtOhJ9jH2Yjc9kaCJDfmw/edit#slide=id.p) 
+
+![Storyboard](https://user-images.githubusercontent.com/88692025/151681104-e9f3ffb2-2ae6-4f31-9ad6-f9e1f7bda5fa.PNG)
+
+### Description of the tools:
+- JavaScript and HTML5
+- Microsoft Visual Studio Code
+- Tableau Desktop Version 2021.4
+- Tableau Software is an interactive data visualization software tool.
+
+### Description of the interactive elements:
+- The individual graphs and data visualizations will be created on Tableau
+- Once the individual graphs are created, a Tableau Dashboard with the most relevant graphs can be made.
+- Our team has decided that we will use the graphs taken from the data visualization in Tableau and create a JavaScript/HTML5 dashboard in the form of a web link
+- On this dashboard we will create links to the individual Tableau graphs.
+- An example of interactive element we can use in the dashboard via Tableau, is searching for a flight number to get flight delay, searching for an airline or airports to get probability of flight delay.
+- Searching for an airport or airline in general to check k for total flights.
+
+### Graphs and Analysis:
+
+- The following graphs are examples the type of Airline and Airport data we are analyzing:
+
+Top 20 Airports by Flights 
+![Top 20 Airports by flights](https://user-images.githubusercontent.com/88692025/151681344-bac572f1-62d4-4bf6-9fc6-062a7df7e3cb.PNG)
+
+Top Airlines by Flights
+![Top Airlines by flights](https://user-images.githubusercontent.com/88692025/151681361-1292f5e4-59f3-4054-bd77-8606565089aa.PNG)
+
+Does how far the flight need to go impact arrival delay at destinations?
+![Arrival Delay vs Distance](https://user-images.githubusercontent.com/88692025/151680624-c3c9dc9d-fbdf-465e-a7e3-ada1632a9d05.PNG)
+
+Does how far the flight need to go impact departure delay in airports?
+![Departure Delay vs Distance](https://user-images.githubusercontent.com/88692025/151680626-929b4377-3104-4dea-a5ab-6e0bfa1d362e.PNG)
+
+Top 20 U.S. Domestic Flight Destinations with Average Arrival Delay (100,000+ flights or more per year)
+![Delayed Arrival Destinations](https://user-images.githubusercontent.com/88692025/151680827-7bbea337-13bc-4279-ae9a-5cf2eb7cfb3b.PNG)
+
+Top 20 U.S. Domestic Flight Cities with Average Departure Delay (100,000+ flights or more per year)
+![Delayed Cities](https://user-images.githubusercontent.com/88692025/151680831-1f47998b-b0dc-4e55-817c-4df3fb168ebf.PNG)
+
+Other Graphs Include:
+1. Top Arrival Delays - All Airlines (Average)
+2. Pie Chart (Percentage for Airline)
+3. Top Departure Delays - All Airlines (Median, Sum, Average)
+4. Top 10 Origin Airport - Departure Delay (Average)
+5. Top 10 Airport - Arrival Delay (Average)
+6. Top 10 Airport Destination - Arrival Delay
+7. Top Reasons for Departure Delay - Top 10 Origin Airports
+8. Seasonal Delays per Airport - Monthly
+9. Seasonal Delays per Airline - Monthly
+10. Filter data for Airline and Airport - Arrival Delays, Departure Delays, Number of flights, Number of Destinations
+11. Origin and Destination Delay Size Map
+12. Weather impact on delays
