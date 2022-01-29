@@ -67,7 +67,13 @@ Link to Google Slides [GitHub Pages](https://docs.google.com/presentation/d/1fgz
 
 ### Graphs and Analysis:
 
-- The following graphs are an example of the type of Airline and Airport data we are analyzing:
+- The following graphs are examples the type of Airline and Airport data we are analyzing:
+
+Top 20 Airports by Flights 
+![Top 20 Airports by flights](https://user-images.githubusercontent.com/88692025/151681344-bac572f1-62d4-4bf6-9fc6-062a7df7e3cb.PNG)
+
+Top Airlines by Flights
+![Top Airlines by flights](https://user-images.githubusercontent.com/88692025/151681361-1292f5e4-59f3-4054-bd77-8606565089aa.PNG)
 
 Does how far the flight need to go impact arrival delay at destinations?
 ![Arrival Delay vs Distance](https://user-images.githubusercontent.com/88692025/151680624-c3c9dc9d-fbdf-465e-a7e3-ada1632a9d05.PNG)
