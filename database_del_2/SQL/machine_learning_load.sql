@@ -31,7 +31,7 @@ CREATE TABLE project.machine_learning_flight_data (
     MONTH varchar(100) NULL,
     DAY varchar(100) NULL,
     MONTH_ABBR varchar(100) NULL,
-    DELAY_STATUS boolean NULL
+    DELAY_STATUS integer NULL
 )PARTITION BY RANGE (FLIGHT_DT);
 
 CREATE TABLE ml_flight_data_201801 PARTITION OF project.machine_learning_flight_data
