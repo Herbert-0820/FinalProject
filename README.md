@@ -154,11 +154,13 @@ Team members submit the code for their
 machine learning model, as well as the following:
 
 ✓ Description of preliminary data preprocessing
+
 - Each one of these files contain an average of 28 categories with millions of rows.For the reson , this project will analysis 2018 dataset that consist 7.2  million rows. 
 
 ✓ Description of preliminary feature engineering
 and preliminary feature selection, including their
 decision-making process.
+
  
  The Delay fligth can be reason of many features weather , distance , airline and airport. So , we use most of features to get more accuray perdicate .
  Since the predictions of  flight delays is before announce on the departure boards.
@@ -199,7 +201,8 @@ decision-making process.
  
 ✓ Description of how data was split into training
 and testing sets.
-The model which used in this project is Classifier which is used to predict discrete outcomes. In this case , flight is delay or not .
+
+- The model which used in this project is Classifier which is used to predict discrete outcomes. In this case , flight is delay or not .
 ARR_DELAY = Total Delay on Arrival in minutes.
 As show below, 'DELAY_STATUS  column is add to dataset which is binary data that classify this sample as belonging to class 0 (on time or early ) or class 1 (delay ).
 
@@ -216,15 +219,26 @@ merged_df.head(2)
 
 ```
 
+Then dropping it alongside the DEP_DELAY from the data frame to define X (features). With this done, I split the data with a 25 and 75% for the test and training set respectively
+
+
+
 ✓ Explanation of model choice, including
 limitations and benefits.
 
 
-The different model was used on this project, but logistic regression model was highest accuracy model. the logistic regression model will then classify this sample as belonging to class 0 (on time or early) or class 1 (delay).
+ The different model was used on this project, but logistic regression model was highest accuracy model. the logistic regression model will then classify this sample as belonging to class 0 (on time or early) or class 1 (delay). 
 
-then dropping it alongside the DEP_DELAY from the data frame to define X (features). With this done, I split the data with a 25 and 75% for the test and training set respectively
+### Benefits 
+- Logistic regression is easier to implement, interpret, and very efficient to train.
+- It can interpret model coefficients as indicators of feature importance.
+- It can easily extend to multiple classes(multinomial regression) and a natural probabilistic view of class predictions.
 
+### limitations 
 
+- The major limitation of Logistic Regression is the assumption of linearity between the dependent variable and the independent variable
+- If the number of observations is lesser than the number of features, Logistic Regression should not be used, otherwise, it may lead to overfitting.
+- 
 ## Dashboard
 
 A blueprint for the dashboard is created and
