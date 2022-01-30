@@ -183,10 +183,8 @@ machine learning model, as well as the following:
 
 - Each one of these files contain an average of 28 categories with millions of rows. For this reason, this project will analyze 2018 dataset that consists of 7.2  million rows. 
 
- As shown below in the following pie chart of Airlines in this dataset
  
-
-
+ 
 
 ### Description of preliminary feature engineering and preliminary feature selection, including decision-making process.
  
