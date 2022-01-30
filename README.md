@@ -84,21 +84,40 @@ Potential ML models to use:
 
 ## Group 10 Final Project - Segment 2
 
-## Project Overview
+## Project Overview (continued)
 
-Content
-The presentation outlines the project, including
-the following:
-✓ Selected topic
-✓ Reason why they selected their topic
-✓ Description of their source of data
-✓ Questions they hope to answer with the data
-✓ Description of the data exploration phase of
-the project
-✓ Description of the analysis phase of the
-project
-Slides
-Presentations are drafted in Google Slides.
+### Selected topic
+- Outlined in more detail in segment 1 above. 
+- Our selected topic is to analyze and overview 2018 U.S. Domestic Flight data, specifically airports and airlines that suffer from delay.
+- Use 2018 historical data and machine learning to predict 2022 flights for specific airlines/airports and whether or not they are delayed and by how many minutes.
+- No longer focusing on flight cancellations or earliness, focusing primarily on arrival delay at destination and departure delay at origin.
+
+### Reason for the selected topic 
+- Using historical data to predict future trends for travelers, this can help travelers, airlines and airports gain better insight on the flights that might be delayed given our machine learning features.
+- Travelers can get an idea if the flight they are on will be delayed or not, and if it will arrive late at the destination airport, which can allow them to plan their travel more accurately.
+
+### Description of their source of data
+- Outlined in Detail in Segment 1 above
+- Airline Delay and Cancellation Data, 2009 - 2018 from Kaggle.com
+- Flight info. of US domestic flights for all flights in 2018
+
+### Questions we are closer to answering with the data
+- How impactful is weather on certain airlines?
+- How impactful is weather on certain airports?
+- How impactful is airline delay vs airport delay?
+- Can we predict if a flight is delayed or not?
+- Can we predict how much a flight will be delayed?
+- Is there a link between distance of the flight and the delay?
+
+### Description of the data exploration phase
+- During the inital analyis of the kaggle data, our team analyzed the colunms to see if there is an application of Machine learning possible within this data set
+- The second step was to clean preprocess this data using Python and Pandas
+- The columns and that are not useufl and nulls were dropped
+
+### Description of the analysis phase 
+- The analysis of the data took place during the data visualization stage
+- All grpahs and analyses were created to show the data we have after cleaning
+- The grpahs will have hiostoical elements of 2018 data and predictive elemtns of 2022 machine learning based outcomes
 
 ## Team Overview
 
