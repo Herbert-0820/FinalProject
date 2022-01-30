@@ -185,7 +185,7 @@ machine learning model, as well as the following:
 
  As shown below in the following pie chart of Airlines in this dataset
  
-![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/nada/image/pie_airline.png )
+
 
 
 ### Description of preliminary feature engineering and preliminary feature selection, including decision-making process.
