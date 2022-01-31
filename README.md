@@ -153,26 +153,24 @@ Potential ML models to use:
 Team members present a fully integrated
 database.
 
--	Switched to GCP PostgreSQL database for a much faster database than AWS
+- Switched to GCP PostgreSQL database for a much faster database than AWS
 
 
-✓ Database stores static data for use during the project
+- Database stores static data for use during the project, includes csvs of cleaned and preprocessed data 
 
-✓ Database interfaces with the project in someformat (e.g., scraping updates the database, or database connects to the model)
+- Database interfaces with the project in someformat (e.g., scraping updates the database, or database connects to the model): the database is linked to Tableau data visualization tool and recalls tables from the server.
 
--	Data stored in tables and stores the formatted raw data and the Machine learning model Data
-
-
-✓ Includes at least two tables (or collections, if using MongoDB)
-
-✓ Includes at least one join using the database language (not including any joins in Pandas)
-
--	Join on another airplane dataset to provide airport names and latitude and longitude
+- Data stored in tables and stores the formatted raw data and the Machine learning model Data
 
 
-✓ Includes at least one connection string (using SQLAlchemy or PyMongo)
+- Includes at least two tables (or collections, if using MongoDB) + Includes at least one join using the database language (not including any joins in Pandas) two linked csvs to concatenate play airport names and airline names in the original dataset. Our team used databases to join them.
 
--	Using the JDBC connector to write to the database
+- Join on another airplane dataset to provide airport names and latitude and longitude
+
+
+- Includes at least one connection (using SQLAlchemy or PyMongo)
+
+- Using the JDBC connector to write to the database
 
 ## Machine Learning Model
 
