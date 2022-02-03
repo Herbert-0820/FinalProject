@@ -2,11 +2,10 @@
 ## Group 10 Final Project - Saeed's Branch
 
 To-Do-List for Sunday
-1. Update Project Overview (Presentation) - Local Read.me - then regular 
-2. Update Dashboard - local then regular after a day ✓
-3. Update Tableau after receiving data ✓
-4. Update Dashboard and get dashboard info from presentation to include in write up ✓
-5. Send team HTML code from Scratch ✓
+- Interactive Element
+- Dahsboard
+- Interactive Dashboard?
+- Update Presentation (fix your part)
 
 ## Group 10 Final Project - Segment 2
 
