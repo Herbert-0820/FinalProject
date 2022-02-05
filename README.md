@@ -278,6 +278,12 @@ merged_df.head(2)
 
   --------------------------------------------
   
+ ### Data (images or report) from the machine learning task
+
+
+  --------------------------------------------
+
+  
 ### Description of current accuracy score
 
  The Accuracy of  logistic regression is 88% as show below .
@@ -353,19 +359,9 @@ Other Graphs Include:
 12. Weather impact on delays
 
 
-- Images from the initial analysis
 
 
-  --------------------------------------------
 
 
-- Data (images or report) from the machine learning task
 
 
-  --------------------------------------------
-
-
-- At least one interactive element
-
-
-  --------------------------------------------
