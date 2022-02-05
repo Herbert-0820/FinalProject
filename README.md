@@ -120,14 +120,12 @@ Potential ML models to use:
 - The grpahs will have hiostoical elements of 2018 data and predictive elemtns of 2022 machine learning based outcomes
 
 ### Technologies, languages, tools, and algorithms used throughout the project
-  
-  --------------------------------------------
-  
-  --------------------------------------------
-  
-  
-  --------------------------------------------
-  
+
+- jupyter notebook and colab google : data preprocessing and analysis
+- Tableau Desktop Version 2021.4 : interactive Graph  visualization
+- JavaScript and HTML5 : website
+- PostgreSQL and  AWS : database 
+- google doc - presentations
   
   
 
@@ -298,10 +296,11 @@ Link to Google Slides [GitHub Pages](https://docs.google.com/presentation/d/1fgz
 ![Storyboard](https://user-images.githubusercontent.com/88692025/151681104-e9f3ffb2-2ae6-4f31-9ad6-f9e1f7bda5fa.PNG)
 
 ### Description of the tools:
+
+- jupyter notebook and colab google
 - JavaScript and HTML5
-- Microsoft Visual Studio Code
-- Tableau Desktop Version 2021.4
-- Tableau Software is an interactive data visualization software tool.
+- Tableau Desktop Version 2021.4  (an interactive data visualization software tool)
+
 
 ### Description of the interactive elements:
 - The individual graphs and data visualizations will be created on Tableau
