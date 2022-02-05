@@ -2,7 +2,7 @@
 
 ![Delayed (2)](https://user-images.githubusercontent.com/88692025/148868060-eeb992e9-a616-4918-9e6a-f6f33f5bbd5f.jpg)
 
-## Group 10 Final Project - Segment 1
+## Group 10 Final Project 
 
 ## Google Slides Presentation Link
 
@@ -82,7 +82,7 @@ Potential ML models to use:
 - Based on the type of usage we plan to add additional indexes for efficient data retrieval
 - The database technology used is PostgreSQL and it will be hosted on AWS
 
-## Group 10 Final Project - Segment 2
+## Group 10 Final Project - Segment 3
 
 ## Project Overview (continued)
 
@@ -118,6 +118,12 @@ Potential ML models to use:
 - The analysis of the data took place during the data visualization stage
 - All grpahs and analyses were created to show the data we have after cleaning
 - The grpahs will have hiostoical elements of 2018 data and predictive elemtns of 2022 machine learning based outcomes
+
+### Technologies, languages, tools, and algorithms used throughout the project
+  
+  
+  
+  
 
 ## Team Overview
 
@@ -259,6 +265,16 @@ The Accuracy of  logistic regression is 88% as show below .
 - The major limitation of Logistic Regression is the assumption of linearity between the dependent variable and the independent variable
 - If the number of observations is lesser than the number of features, Logistic Regression should not be used, otherwise, it may lead to overfitting.
 
+
+### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+
+### Description of how they have trained the model thus far, and any additional training that will take place
+
+### Description of current accuracy score
+
+
+
+
 ## Dashboard
 
 ### Storyboard (Also Available on Google Slides)
@@ -322,3 +338,13 @@ Other Graphs Include:
 10. Filter data for Airline and Airport - Arrival Delays, Departure Delays, Number of flights, Number of Destinations
 11. Origin and Destination Delay Size Map
 12. Weather impact on delays
+
+
+- Images from the initial analysis
+
+
+- Data (images or report) from the machine learning task
+
+
+- At least one interactive element
+
