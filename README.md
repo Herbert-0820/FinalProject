@@ -121,6 +121,12 @@ Potential ML models to use:
 
 ### Technologies, languages, tools, and algorithms used throughout the project
   
+  --------------------------------------------
+  
+  --------------------------------------------
+  
+  
+  --------------------------------------------
   
   
   
@@ -268,10 +274,18 @@ The Accuracy of  logistic regression is 88% as show below .
 
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
+
+  --------------------------------------------
+  
+
 ### Description of how they have trained the model thus far, and any additional training that will take place
 
+
+  --------------------------------------------
+  
 ### Description of current accuracy score
 
+  --------------------------------------------
 
 
 
@@ -343,8 +357,16 @@ Other Graphs Include:
 - Images from the initial analysis
 
 
+  --------------------------------------------
+
+
 - Data (images or report) from the machine learning task
+
+
+  --------------------------------------------
 
 
 - At least one interactive element
 
+
+  --------------------------------------------
