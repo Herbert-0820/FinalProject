@@ -287,7 +287,7 @@ merged_df.head(2)
 ![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/Balanced%20Random%20Forest.png)
 
 - Regression Model use graph to compare training and testing data
-![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/regression_plt.png )
+![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/regressor.png  )
 
 
 
