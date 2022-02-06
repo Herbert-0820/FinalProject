@@ -272,23 +272,30 @@ merged_df.head(2)
 1.The Segment 3 have less feature than 2 Segment after check important features
  
  - Second Segment 
-   ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/accuracy_score.png )
+   ![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/more%20features.png)
    
  - Third Segment 
   ![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/less_freatures.png)
   
- 2. Add Regression Model for Machine learning , beside Classifier 
+ 2. Add Regression  Machine learning 
+  
   
   
 ### Description of how they have trained the model thus far, and any additional training that will take place
 
+- Classifier Model use balanced random forest , because dataset is imbalanced
+![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/Balanced%20Random%20Forest.png)
+
+- Regression Model use graph to compare training and testing data
 ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/regression_plt.png )
+
+
 
   
  ### Data (images or report) from the machine learning task
 
 - Classifier Model 
-![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/Random%20Forest%20Classifier.png)
+![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/Random%20Forest%20Classifier.png )
 
 - Regression Model 
 ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/regression_plt.png )
