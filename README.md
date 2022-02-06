@@ -4,7 +4,7 @@
 To-Do-List for Sunday
 - Interactive Element
 - Dahsboard
-- Interactive Dashboard?
+- Send link to Dashboard
 - Update Presentation (fix your part)
 
 ## Group 10 Final Project - Segment 2
