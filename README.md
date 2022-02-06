@@ -279,7 +279,7 @@ merged_df.head(2)
   
  2. Add Regression  Machine learning 
   
-  
+  ![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/regressor.png)
   
 ### Description of how they have trained the model thus far, and any additional training that will take place
 
