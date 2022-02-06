@@ -2,10 +2,10 @@
 ## Group 10 Final Project - Saeed's Branch
 
 To-Do-List for Sunday
-- Interactive Element
-- Dahsboard
-- Send link to Dashboard
-- Update Presentation (fix your part)
+- Show Interactive Element
+- Type up Dahboard and website screenshot
+- Type up dashboard new graphs
+- Update Presentation (fix 2 parts)
 
 ## Group 10 Final Project - Segment 2
 
