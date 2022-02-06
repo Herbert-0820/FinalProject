@@ -269,28 +269,38 @@ merged_df.head(2)
 
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
-
-  --------------------------------------------
+1.The Segment 3 have less feature than 2 Segment after check important features
+ 
+ - Second Segment 
+   ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/accuracy_score.png )
+   
+ - Third Segment 
+  ![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/less_freatures.png)
   
-
+ 2. Add Regression Model for Machine learning , beside Classifier 
+  
+  
 ### Description of how they have trained the model thus far, and any additional training that will take place
 
+![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/regression_plt.png )
 
-  --------------------------------------------
   
  ### Data (images or report) from the machine learning task
 
+- Classifier Model 
+![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/Random%20Forest%20Classifier.png)
 
-  --------------------------------------------
+- Regression Model 
+![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/regression_plt.png )
+
 
   
 ### Description of current accuracy score
 
  The Accuracy of  logistic regression is 88% as show below .
  
- ![This is an image]( https://github.com/Herbert-0820/FinalProject/blob/main/image/accuracy_score.png )
 
-
+![This is an image](https://github.com/Herbert-0820/FinalProject/blob/main/image/accuracy_logistic.png)
 
 
 ## Dashboard
