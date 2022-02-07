@@ -1,10 +1,7 @@
 # 2022 U.S. Domestic Flight Delay/Earliness Predictor
 ## Group 10 Final Project - Saeed's Branch
 
-To-Do-List for Sunday
-- Show Interactive Element
-- Type up Dahboard and website screenshot
-- Type up dashboard new graphs
+To-Do-List for Monday Rehearsal
 - Update Presentation (fix 2 parts)
 
 ## Group 10 Final Project - Segment 2
