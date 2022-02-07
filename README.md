@@ -364,6 +364,31 @@ Top 20 U.S. Domestic Flight Cities with Average Departure Delay (100,000+ flight
 
 ![Delayed Cities](https://user-images.githubusercontent.com/88692025/151680831-1f47998b-b0dc-4e55-817c-4df3fb168ebf.PNG)
 
+Seasonal Changes, shows an influx of delays in the summer season due to it being the peak and most frequently travlled period.
+
+![Seasonal Changes](https://user-images.githubusercontent.com/88692025/152724207-d0f3f4c1-9749-453c-a231-472680636caf.PNG)
+
+## Interactive Dashboard - Web Deployment
+
+![image](https://user-images.githubusercontent.com/88692025/152724352-39024078-95c1-41ee-afeb-cb11e01cc3b0.png)
+
+The following is a Tableau Story powered by HTML5, it is interactive and shows all the various airport and airline data in our analysis. Hovering over each one will clrarify what each segment contains in terms of data.
+
+We have also included an interactive map of Departure and Arrival Delays in the Dashboard, one can search between airports within certain cities, or search by airports and cities individually. This can help us viosualize the size and frequency of delays across US domestic flights.
+
+![image](https://user-images.githubusercontent.com/88692025/152724565-6dc7e8ed-0359-4680-bda3-50ca0294fff6.png)
+
+Weather Delays top Cities Averages are shown in the graphs below
+
+![Weather Delay per CIty](https://user-images.githubusercontent.com/88692025/152724908-1e82a5e0-d01b-4dbc-a092-661819e37666.PNG)
+
+
+Not just delays are captutred in the dataset, also flights that are early make a difference.
+Top 20 Earliest flights per Airport shown below
+
+![Early](https://user-images.githubusercontent.com/88692025/152725015-f9d44e74-a58c-4d27-8464-2ae5f8a3537c.PNG)
+
+
 Other Graphs Include:
 1. Top Arrival Delays - All Airlines (Average)
 2. Pie Chart (Percentage for Airline)
@@ -371,17 +396,7 @@ Other Graphs Include:
 4. Top 10 Origin Airport - Departure Delay (Average)
 5. Top 10 Airport - Arrival Delay (Average)
 6. Top 10 Airport Destination - Arrival Delay
-7. Top Reasons for Departure Delay - Top 10 Origin Airports
-8. Seasonal Delays per Airport - Monthly
-9. Seasonal Delays per Airline - Monthly
-10. Filter data for Airline and Airport - Arrival Delays, Departure Delays, Number of flights, Number of Destinations
-11. Origin and Destination Delay Size Map
-12. Weather impact on delays
-
-
-
-
-
-
-
-
+7. Seasonal Delays per Airport - Monthly
+8. Seasonal Delays per Airline - Monthly
+9. Filter data for Airline and Airport - Arrival Delays, Departure Delays, Number of flights, Number of Destinations
+10. Origin and Destination Delay Size Map
