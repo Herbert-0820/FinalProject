@@ -24,13 +24,14 @@ Supervised machine learning model aimed at predicting flight delays.
 
 Using historical delay information from 2016-2018 from US domestic airports and flights.
 
-Potential ML models to use:
-
-- Logistic Regression 0.88
-- Balanced Random Forest Classifier 0.86
+ ML models to use:
+ Classifier   : Accuracy
+- Logistic Regression 0.88 
+- Balanced Random Forest Classifier 0.86 
 - Bagging Classifier 0.82
 - Decision Tree Classifier 0.79
 
+Regression  : R-squared
 - Random Forest Regressor 0.97
 - Linear Regression 0.96
 - Decision Tree Regressor 0.95
