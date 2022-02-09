@@ -87,7 +87,7 @@ Potential ML models to use:
 - Based on the type of usage we plan to add additional indexes for efficient data retrieval
 - The database technology used is PostgreSQL and it will be hosted on AWS
 
-## Group 10 Final Project - Segment 3
+## Group 10 Final Project
 
 ## Project Overview (continued)
 
@@ -131,7 +131,6 @@ Potential ML models to use:
 - JavaScript and HTML5 : website
 - PostgreSQL and  AWS : database 
 - google doc - presentations
-  
   
 
 ## Team Overview
