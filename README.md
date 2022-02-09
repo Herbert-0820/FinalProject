@@ -24,8 +24,9 @@
 - Herbert Han (Square)
 - Saeed Husseini (X)
 
-Machine Learning Model
-Data Pre-processing/Cleaning
+##  Machine Learning Model
+Data Pre-processing/Cleaning 
+
 Deciding the definition of a delayed flight, which variables to keep in the model, which variables to discard.
 
 Supervised machine learning model aimed at predicting flight delays.
