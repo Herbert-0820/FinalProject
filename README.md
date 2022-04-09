@@ -19,10 +19,10 @@
 
 ## Team Members & Roles
 
-- Varun Rao (Circle)
-- Nada Abubaker (Triangle)
-- Herbert Han (Square)
-- Saeed Husseini (X)
+- Varun Rao 
+- Nada Abubaker (Machine learning )
+- Herbert Han 
+- Saeed Husseini 
 
 ##  Machine Learning Model
 Data Pre-processing/Cleaning 
