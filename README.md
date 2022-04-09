@@ -20,7 +20,7 @@
 ## Team Members & Roles
 
 - Varun Rao 
-- Nada Abubaker (Machine learning )
+- Nada Abubaker 
 - Herbert Han 
 - Saeed Husseini 
 
